@@ -1,0 +1,47 @@
+.root {
+  padding: 40px 0;
+  display: none;
+  flex-wrap: wrap;
+}
+.picture {
+  max-width: 180px;
+}
+.info {
+  padding: 32px;
+  background-color: #ff000055;
+  flex-grow: 1;
+  color: white;
+}
+.title {
+  font-size: 22px;
+  font-weight: 700;
+}
+.followers {
+  color: #662323;
+  margin-left: 16px;
+}
+.actions {
+  display: flex;
+  gap: 16px;
+  padding-top: 16px;
+}
+.action {
+  padding: 7px 23px;
+  border: 1px solid #e86060;
+  border-radius: 20px;
+}
+.play {
+  background-color: #e86060;
+  color: #ffffff;
+}
+.follow {
+  color: #e86060;
+}
+.more {
+  transform: rotate(90deg);
+}
+@media (min-width: 1024px) {
+  .root {
+    display: flex;
+  }
+}

@@ -1,0 +1,15 @@
+.root {
+  flex-basis: 300px;
+  position: relative;
+}
+.search {
+  width: 100%;
+  padding: 4px 32px 4px 16px;
+  border-radius: 21px;
+  border: 1px solid #bdbdbd;
+}
+.searchIcon {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+}
