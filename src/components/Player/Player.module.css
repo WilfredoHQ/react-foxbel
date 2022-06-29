@@ -1,0 +1,68 @@
+.root {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e86060;
+  color: #ffffff;
+  z-index: 1;
+}
+.info {
+  flex-basis: 400px;
+}
+.image {
+  display: none;
+  width: 80px;
+}
+.description {
+  padding: 16px;
+}
+.name {
+  font-weight: 700;
+}
+.controls {
+  display: none;
+  align-items: center;
+}
+.controls.isShow {
+  display: flex;
+}
+.control:hover {
+  background-color: #ff7676;
+  border-radius: 20px;
+}
+.controlIcon {
+  width: 40px;
+  height: 40px;
+}
+.info,
+.volume {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.volumeSlider {
+  width: 100px;
+  display: none;
+}
+.volumeSlider.isShow {
+  display: block;
+}
+
+@media (min-width: 640px) {
+  .image {
+    display: block;
+  }
+  .description {
+    padding: 0;
+  }
+  .controls {
+    display: flex;
+  }
+  .volumeSlider {
+    display: block;
+  }
+}

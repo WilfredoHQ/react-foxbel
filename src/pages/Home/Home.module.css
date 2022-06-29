@@ -1,0 +1,10 @@
+.searchSection {
+  display: flex;
+  gap: 16px;
+}
+
+@media (min-width: 640px) {
+  .menuIcon {
+    display: none;
+  }
+}

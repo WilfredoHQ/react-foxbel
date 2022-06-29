@@ -1,0 +1,17 @@
+.title {
+  color: #e86060;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 16px 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+}
+
+@media (min-width: 1024px) {
+  .title {
+    padding-top: 0;
+  }
+}
